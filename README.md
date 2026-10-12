@@ -1,6 +1,6 @@
-# An Example Project Demonstrating Fast Tool Calling with a System One Model
+# Fast Form Filler 📋
 
-The Form That Fills Itself
+The Form That Fills Itself! An example project demonstrating fast tool calling with a System One model.
 
 **Write one messy paragraph about yourself. Watch a 33-field rental application fill itself, with dates reformatted, phone numbers fixed and boxes ticked. The AI runs in your browser, so your SSN and address never leave your device.**
 
