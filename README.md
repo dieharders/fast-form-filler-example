@@ -2,11 +2,15 @@
 
 The Form That Fills Itself! An example project demonstrating fast tool calling with a System One model.
 
-**Write one messy paragraph about yourself. Watch a 33-field rental application fill itself, with dates reformatted, phone numbers fixed and boxes ticked. The AI runs in your browser, so your SSN and address never leave your device.**
+## What is it?
+
+This is a small, self-contained example of **on-device tool calling** with [Cactus Needle 3](https://github.com/cactus-compute/needle), a 121M-parameter tool-calling model that fits in a 35 MB file. It runs on the CPU as WebAssembly. There is no server, no API key and no backend. After the model has downloaded once, you can turn on airplane mode and the form still fills.
 
 ![The Form That Fills Itself: a legal pad of messy text next to a bureaucratic rental application](public/og.png)
 
-This is a small, self-contained example of **on-device tool calling** with [Cactus Needle 3](https://github.com/cactus-compute/needle), a 121M-parameter tool-calling model that fits in a 35 MB file. It runs on the CPU as WebAssembly. There is no server, no API key and no backend. After the model has downloaded once, you can turn on airplane mode and the form still fills.
+## What does it do?
+
+**Write one messy paragraph about yourself. Watch a 33-field rental application fill itself, with dates reformatted, phone numbers fixed and boxes ticked. The AI runs in your browser, so your SSN and address never leave your device.**
 
 ```
 "I'm Maria Lopez, born March 4th 91, moving from 12 Oak St SF to 440 Pine in Oakland on the 1st,
@@ -28,6 +32,8 @@ becomes 18 filled fields from 12 tool calls, including:
 | Employer / title | Kaiser / Nurse |
 | Monthly income | $8,000 ⚑ *no period was given, so $96,000 was read as per year* |
 | Pets | ☒ Dog |
+
+https://github.com/user-attachments/assets/6383c5e1-2a1b-40a5-aeb5-3892618dbf8a
 
 ## Quickstart
 
